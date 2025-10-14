@@ -1,0 +1,49 @@
+:root {
+    --mexican-pink: #E4007C;
+    --lime-green: #32CD32;
+    --dark-brown: #3D2B1F;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.top-banner {
+    height: 1cm;
+    background-color: var(--dark-brown);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: var(--lime-green);
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #28a745; /* Un verde un poco más oscuro */
+    color: white;
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
